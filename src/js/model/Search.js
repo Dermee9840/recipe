@@ -15,7 +15,7 @@ export default class Search {
 
       return this.result;
     } catch (error) {
-      alert("Алдаа гарлаа : " + error);
+      console.log("Алдаа гарлаа : " + error);
     }
   }
 }
